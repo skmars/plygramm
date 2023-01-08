@@ -1,7 +1,9 @@
-[logo img]
+![logo img](/plygramm/static/portal/images/logo.png)
 ## Ply your interlanguage grammar!
 ### _One concept - three languages, three grammars_
 ---
+*Plygramm is on the process... We can't wait to implement all ideas!
+
 ##### Table of contents:
 [What is this?](#About)
 [Features](#Features)
@@ -14,34 +16,33 @@
 
 
 ## About
+Plygramm is an absolutely free platform to learn grammar of several different languages in parallel. 
 
-Plygramm is a free platform to learn grammar of different languages in parallell. 
-The main idea based on comparative grammar approach.
-Here we would have 3 different lagugaes mostly in one language family. 
- - jfjf
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
+ - The main idea based on comparative grammar approach.
+ - Here the computer would suggest 3 different languages mostly in one language family to combine. 
+But the last decision is for you.
+ - The platform is designed to skill you up predominately in grammar. 
+So, knowing alphabet of a chosen languages is a must.
+
 
 ## Features
 
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
+- learn one grammatical concept in three languages at a time
+- check your understanding of the concept having a rule on the same screen
+- pass a complex task on the passed rules
+- ask teachers questions, make notes
+- become a teacher and make your own tasks
+- ✨feel your bilingual growing up✨
 
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
+We, People couldn't live without structures. Grammar is a type of instructure we use to communicate.
+To communicate with all living and nonliving objects. It'as everywhere.
+As famous designer [Charles James] wrote:[df1]
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
+>Cut in dressmaking is like grammar in language. 
+>A good design should be like a well made sentence
+>and it should only express one idea at a time.
+
+So we have _single resposobolity_ in Computer Science in OOP as a first SOLID principle.
 
 This text you see here is *actually- written in Markdown! To get a feel
 for Markdown's syntax, type some text into the left window and
@@ -80,8 +81,25 @@ In progress ...  🔜
 In progress ...  🔜
 ## License
 **ABSOLUTELY Free Software!**
+
 ##Inspiration
 
+the second of most translated worldwide books
+https://www.thelittleprince.com/#phenomenon
+
+Learning new laguages:
+https://learningcenter.unc.edu/tips-and-tools/learning-a-second-language/
+https://www.middlebury.edu/language-schools/blog/why-you-should-learn-second-language-and-gain-new-skills
+https://elttguide.com/how-to-teach-grammar-using-ppp-model/
+https://github.com/multilingual-dh/nlp-resources
+
+Applying new Tech decisions and concepts:
+https://github.com/matthewrenze/clean-architecture-demo/tree/3c4a60ffc3c62833edf4f35730cc2df96360be6f
+https://martinfowler.com/articles/break-monolith-into-microservices.html
+https://peps.python.org/pep-0020/
+https://github.com/HackSoftware/Django-Styleguide
+https://roadmap.sh/backend/
+https://github.com/webpro/programming-principles
 
 [//]: # 
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
