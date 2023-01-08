@@ -5,22 +5,20 @@
 *Plygramm is on the process... We can't wait to implement all ideas!
 
 ##### Table of contents:
-[What is this?](#About)
-[Features](#Features)
-[Tech](#Tech)
-[Plygins](#Plygins)
-[Inspiration](#Inspiration)
-[Headers](#headers)  
+[What is this?](#About)  
+[Features](#Features)  
+[Tech](#Tech)  
+[Plygins](#Plygins)  
+[Inspiration](#Inspiration)  
+[Headers](#headers)    
 
 
 ## About
 Plygramm is an absolutely free platform to learn grammar of several different languages in parallel. 
 
  - The main idea based on comparative grammar approach.
- - Here the computer would suggest 3 different languages mostly in one language family to combine. 
-But the last decision is for you.
- - The platform is designed to skill you up predominately in grammar. 
-So, knowing alphabet of a chosen languages is a must.
+ - Here the computer would suggest 3 different languages mostly in one language family to combine. But the last decision is for you.
+ - The platform is designed to skill you up predominately in grammar. So, knowing alphabet of a chosen languages is a must.
 
 
 ## Features
@@ -34,10 +32,10 @@ So, knowing alphabet of a chosen languages is a must.
 
 We, People couldn't live without structures. Grammar is a type of instructure we use to communicate.
 To communicate with all living and nonliving objects. It'as everywhere.
-As famous designer [Charles James] wrote:[df1]
+As famous designer _Charles James_ wrote:
 
->Cut in dressmaking is like grammar in language. 
->A good design should be like a well made sentence
+>Cut in dressmaking is like grammar in language.   
+>A good design should be like a well made sentence  
 >and it should only express one idea at a time.
 
 So we have _single resposobolity_ in Computer Science in OOP as a first SOLID principle.
@@ -80,24 +78,24 @@ In progress ...  🔜
 ## License
 **ABSOLUTELY Free Software!**
 
-##Inspiration
+## Inspiration
 
-the second of most translated worldwide books
+The second of most translated worldwide books
 https://www.thelittleprince.com/#phenomenon
 
-Learning new laguages:
+Learning new laguages:  
 https://learningcenter.unc.edu/tips-and-tools/learning-a-second-language/
-https://www.middlebury.edu/language-schools/blog/why-you-should-learn-second-language-and-gain-new-skills
-https://elttguide.com/how-to-teach-grammar-using-ppp-model/
-https://github.com/multilingual-dh/nlp-resources
+https://www.middlebury.edu/language-schools/blog/why-you-should-learn-second-language-and-gain-new-skills  
+https://elttguide.com/how-to-teach-grammar-using-ppp-model/  
+https://github.com/multilingual-dh/nlp-resources  
 
-Applying new Tech decisions and concepts:
-https://github.com/matthewrenze/clean-architecture-demo/tree/3c4a60ffc3c62833edf4f35730cc2df96360be6f
-https://martinfowler.com/articles/break-monolith-into-microservices.html
-https://peps.python.org/pep-0020/
-https://github.com/HackSoftware/Django-Styleguide
-https://roadmap.sh/backend/
-https://github.com/webpro/programming-principles
+Applying new Tech decisions and concepts:  
+https://github.com/matthewrenze/clean-architecture-demo/tree/3c4a60ffc3c62833edf4f35730cc2df96360be6f  
+https://martinfowler.com/articles/break-monolith-into-microservices.html  
+https://peps.python.org/pep-0020/  
+https://github.com/HackSoftware/Django-Styleguide  
+https://roadmap.sh/backend/  
+https://github.com/webpro/programming-principles  
 
 [//]: # 
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
