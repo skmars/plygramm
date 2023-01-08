@@ -12,8 +12,6 @@
 [Inspiration](#Inspiration)
 [Headers](#headers)  
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
 
 ## About
 Plygramm is an absolutely free platform to learn grammar of several different languages in parallel. 
