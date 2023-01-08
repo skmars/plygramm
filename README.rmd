@@ -1,0 +1,89 @@
+[logo img]
+## Ply your interlanguage grammar!
+### _One concept - three languages, three grammars_
+---
+##### Table of contents:
+[What is this?](#About)
+[Features](#Features)
+[Tech](#Tech)
+[Plygins](#Plygins)
+[Inspiration](#Inspiration)
+[Headers](#headers)  
+
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+
+
+## About
+
+Plygramm is a free platform to learn grammar of different languages in parallell. 
+The main idea based on comparative grammar approach.
+Here we would have 3 different lagugaes mostly in one language family. 
+ - jfjf
+- Type some Markdown on the left
+- See HTML in the right
+- ✨Magic ✨
+
+## Features
+
+- Import a HTML file and watch it magically convert to Markdown
+- Drag and drop images (requires your Dropbox account be linked)
+- Import and save files from GitHub, Dropbox, Google Drive and One Drive
+- Drag and drop markdown and HTML files into Dillinger
+- Export documents as Markdown, HTML and PDF
+
+Markdown is a lightweight markup language based on the formatting conventions
+that people naturally use in email.
+As [John Gruber] writes on the [Markdown site][df1]
+
+> The overriding design goal for Markdown's
+> formatting syntax is to make it as readable
+> as possible. The idea is that a
+> Markdown-formatted document should be
+> publishable as-is, as plain text, without
+> looking like it's been marked up with tags
+> or formatting instructions.
+
+This text you see here is *actually- written in Markdown! To get a feel
+for Markdown's syntax, type some text into the left window and
+watch the results in the right.
+
+## Tech
+
+Plygramm uses a number of open source projects to work properly:
+
+- [Python](https://www.python.org/) - major backend language (v3.10)
+- [Django](https://www.djangoproject.com/) - legend web framework for Python (v4.1)
+- [Django Rest](https://www.django-rest-framework.org/) - flexible toolkit for building Web API (v3.14)
+- [Celery](https://docs.celeryq.dev/en/stable/#) - reliable distributed asynchronous task queue system (v5.2.7)
+- [Redis](https://redis.io/)- message broker to mediate between clients (v4.4.0)
+- [Flake8, Black](https://flake8.pycqa.org/) - usefull linters to beutify python code
+- [MySQL](https://www.mysql.com/) - DB 
+
+
+And of course Plygramm itself will be open source with a [public repository][dill]
+ on GitHub.
+
+## Plugins
+
+Plygramm will be currently extended with the following plugins.
+Instructions on how to use them in your own application are linked below.
+
+| Plugin | README |
+| ------ | ------ |
+| Dropbox | [plugins/dropbox/README.md][PlDb] |
+| GitHub | [plugins/github/README.md][PlGh] |
+| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+
+## Development
+In progress ...  🔜
+## Docker
+In progress ...  🔜
+## License
+**ABSOLUTELY Free Software!**
+##Inspiration
+
+
+[//]: # 
+   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
+   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
