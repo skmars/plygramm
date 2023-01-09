@@ -9,22 +9,11 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
-develop-eggs/
-dist/
 downloads/
-eggs/
-.eggs/
 lib/
 lib64/
-parts/
-sdist/
 var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
 .installed.cfg
-*.egg
 MANIFEST
 
 common/
@@ -37,7 +26,6 @@ common/
 
 # Installer logs
 pip-log.txt
-pip-delete-this-directory.txt
 
 # Unit test / coverage reports
 htmlcov/
@@ -50,7 +38,6 @@ nosetests.xml
 coverage.xml
 *.cover
 *.py,cover
-.hypothesis/
 .pytest_cache/
 
 # Translations
@@ -67,17 +54,7 @@ db.sqlite3-journal
 instance/
 .webassets-cache
 
-# Scrapy stuff:
-.scrapy
 
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
 
 #vscode staff
 .vscode
@@ -99,9 +76,6 @@ __pypackages__/
 celerybeat-schedule
 celerybeat.pid
 
-# SageMath parsed files
-*.sage.py
-
 # Environments
 .env
 .venv
@@ -111,12 +85,6 @@ ENV/
 env.bak/
 venv.bak/
 
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
 
 # mkdocs documentation
 /site
@@ -136,14 +104,19 @@ dmypy.json
 # media and static files
 /media
 
-#features in progress
-common/factories.py
-common/types.py
-common/models.py
-
-#in process....
-config/settings/
+#features in process....
 docker/
-plygramm/
+plygramm/api
+plygramm/common
+plygramm/introduction
+plygramm/media
+plygramm/plygramm/setenv.sh
+plygramm/portal
+plygramm/quizzes
+plygramm/rules
+plygramm/tasks
+plygramm/static
+plygramm/templates
+TODO
 requirements/
 

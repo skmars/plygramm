@@ -1,0 +1,57 @@
+{% extends 'base_portal.html' %}
+{% load static %}
+
+
+{% block title %}
+PlyGramm ▸ UserInfo
+{% endblock %}
+{% block additional_head %}{% endblock %}
+
+{% block content %}
+<section id="user-page">
+  <div class="user-page-inner">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="text-center">
+          <div class="user-info">
+            <img class="img-responsive mb-4" src="{% static 'portal/images/home/signing_up.png' %}" alt="">
+            
+
+          </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingUsername" placeholder="username">
+                <label for="floatingUsername">Username</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control m5" id="floatingPassword" placeholder="password">
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                <label for="floatingEmail">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingQuestion" placeholder="controllQuestion">
+                <label for="floatingQuestion">Controll Question</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingAnswer" placeholder="answerControllQuestion">
+                <label for="floatingAnswer">Answer to Controll Question</label>
+              </div>
+              <div class="roleButtons m-3">
+                <input type="radio" class="btn-check" name="options" id="roleButton1" autocomplete="off" checked>
+                <label class="btn btn-secondary" for="roleButton1">Teacher</label>
+
+                <input type="radio" class="btn-check" name="options" id="roleButton2" autocomplete="off">
+                <label class="btn btn-secondary" for="roleButton2">Student</label>
+              </div> 
+              <a href="{% url 'change_question' %}" class="btn btn-sign-up">Change Controll Question</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

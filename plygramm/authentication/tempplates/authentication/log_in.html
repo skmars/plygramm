@@ -1,0 +1,46 @@
+{% extends 'base_portal.html' %}
+{% load static %}
+
+
+{% block title %}
+PlyGramm ▸ Home
+{% endblock %}
+{% block additional_head %}{% endblock %}
+
+{% block content %}
+<section id="home-page">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="text-center">
+                    <div class="home-form ">
+                        <h1>PlyGramm</h1>
+                        <h2>Ply your interlanguage grammar</h2>
+                        <div class="greetings-image">
+                            <img class="img-responsive greet" src="{% static 'portal/images/home/greetings.png' %}"
+                                alt="">
+                        </div>
+                        <form  class='form-inline' id="login-form" method="post">
+                            {% csrf_token %}
+                            <div class="row">
+                                <div class="col">
+                                    <input class="login-input" type="text" name="name" placeholder="Username" id="name"
+                                    required><br><br>
+                                    <input class="login-input" type="password" name="pass" placeholder="Password" id="pass"
+                                    required><br><br>
+                                </div>
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary btn-log-in pull-right">Go</button>
+                                </div>
+                                <div class="form-group">
+                                    <a href="{% url 'portal:sign_up' %}" class="btn btn-sign-up">Sign up</a>
+                                </div> 
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

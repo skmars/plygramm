@@ -1,0 +1,71 @@
+{% extends 'base_portal.html' %}
+{% load static %}
+
+
+{% block title %}
+PlyGramm ▸ Sign up
+{% endblock %}
+{% block additional_head %}{% endblock %}
+
+{% block content %}
+<section id="sign-up-page">
+  <div class="sign-up-page-inner">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="text-center">
+            <form action="{% url 'portal:sign_up' %}" id="sign-up-form" method="post">
+              {% csrf_token %}
+              <img class="img-responsive mb-4" src="{% static 'portal/images/home/signing_up.png' %}" alt="">
+              {{ form.non_field_errors }}
+              <div class="form-floating mb-3">
+                <td>{{ form.username.label_tag }}</td>
+                {{ form.username }}
+                <div class="invalid-feedback">
+                  {{ form.title.errors }}
+                </div>
+              </div>
+              <div class="form-floating mb-3">
+                <td>{{ form.password1.label_tag }}</td>
+                {{ form.password1 }}
+                <div class="invalid-feedback">
+                  {{ form.title.errors }}
+                </div>
+              </div>
+              <div class="form-floating mb-3">
+                <td>{{ form.email.label_tag }}</td>
+                {{ form.email }}
+                <div class="invalid-feedback">
+                  {{ form.title.errors }}
+                </div>
+              </div>
+              <div class="form-floating mb-3">
+                <td>{{ form.controll_question.label_tag }}</td>
+                {{ form.controll_question }}
+                <div class="invalid-feedback">
+                  {{ form.title.errors }}
+                </div>
+              </div>
+              <div class="form-floating mb-3">
+                <td>{{ form.answer_controll_question.label_tag }}</td>
+                {{ form.answer_controll_qestion }}
+                <div class="invalid-feedback">
+                  {{ form.title.errors }}
+                </div>
+              </div>
+              <div class="roleButtons m-3">
+                <input type="radio" class="btn-check" name="options" id="roleButton1" autocomplete="off" checked>
+                <label class="btn btn-secondary" for="roleButton1">Teacher</label>
+
+                <input type="radio" class="btn-check" name="options" id="roleButton2" autocomplete="off">
+                <label class="btn btn-secondary" for="roleButton2">Student</label>
+              </div> 
+              <button class="w-100 btn btn-lg btn-primary" id="submitButton" type="submit">Sign in</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
