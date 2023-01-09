@@ -19,6 +19,11 @@ class SignUpForm(UserCreationForm):
     email = forms.EmailField(
         label="Email", widget=forms.EmailInput(attrs={"class": "form-control"})
     )
+    nickname = forms.CharField(
+        label="Nickname",
+        help_text="Set your unique Nickname. It can't contain spaces",
+        widget=forms.TextInput(attrs={"class": "form-controll"}),
+    )
     controll_question = forms.CharField(
         label="Check Question",
         help_text="Set your controll question to secure your indentity",
