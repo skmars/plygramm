@@ -1,4 +1,4 @@
-![logo img](/plygramm/static/portal/images/logo.png)
+![logo img](/plygramm//logo.png)
 ## Ply your interlanguage grammar!
 ### _One concept - three languages, three grammars_
 ---
